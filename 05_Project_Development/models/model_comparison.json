@@ -1,0 +1,226 @@
+{
+    "best_model": "Support Vector Machine",
+    "features": [
+        "Life_Expectancy",
+        "Expected_Schooling",
+        "Mean_Schooling",
+        "Log_GNI"
+    ],
+    "feature_importances": {
+        "Life_Expectancy": 0.12474628067269111,
+        "Expected_Schooling": 0.010245489695395288,
+        "Mean_Schooling": 0.010162386092095391,
+        "Log_GNI": 0.8548458435398183
+    },
+    "outlier_stats": {
+        "Life_Expectancy": {
+            "count": 0,
+            "lower_bound": 44.875000000000014,
+            "upper_bound": 100.27499999999999
+        },
+        "Expected_Schooling": {
+            "count": 0,
+            "lower_bound": 4.3999999999999995,
+            "upper_bound": 22.0
+        },
+        "Mean_Schooling": {
+            "count": 0,
+            "lower_bound": -1.450000000000001,
+            "upper_bound": 19.75
+        },
+        "GNI_Per_Capita": {
+            "count": 0,
+            "lower_bound": -53293.274999999994,
+            "upper_bound": 101664.125
+        }
+    },
+    "models": {
+        "Logistic Regression": {
+            "accuracy": 0.9810924369747899,
+            "precision": 0.9814027606306847,
+            "recall": 0.9810924369747899,
+            "f1_score": 0.9809359501247873,
+            "confusion_matrix": [
+                [
+                    105,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    4,
+                    92,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    66,
+                    3
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    204
+                ]
+            ],
+            "training_time_s": 0.013865000102669,
+            "prediction_time_s": 0.00024270033463835716,
+            "file_size_kb": 1.0068359375
+        },
+        "Decision Tree": {
+            "accuracy": 0.9558823529411765,
+            "precision": 0.9567311281535807,
+            "recall": 0.9558823529411765,
+            "f1_score": 0.9561039898344662,
+            "confusion_matrix": [
+                [
+                    104,
+                    1,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    89,
+                    6,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    63,
+                    7
+                ],
+                [
+                    0,
+                    0,
+                    5,
+                    199
+                ]
+            ],
+            "training_time_s": 0.00294890021905303,
+            "prediction_time_s": 0.00016539962962269783,
+            "file_size_kb": 12.2275390625
+        },
+        "Random Forest": {
+            "accuracy": 0.9747899159663865,
+            "precision": 0.9750458621221734,
+            "recall": 0.9747899159663865,
+            "f1_score": 0.9748694653299916,
+            "confusion_matrix": [
+                [
+                    104,
+                    1,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    92,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    67,
+                    3
+                ],
+                [
+                    0,
+                    0,
+                    3,
+                    201
+                ]
+            ],
+            "training_time_s": 0.1436200002208352,
+            "prediction_time_s": 0.009438399691134691,
+            "file_size_kb": 1025.9775390625
+        },
+        "Support Vector Machine": {
+            "accuracy": 0.9894957983193278,
+            "precision": 0.9897116613635746,
+            "recall": 0.9894957983193278,
+            "f1_score": 0.9894703982589257,
+            "confusion_matrix": [
+                [
+                    105,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    3,
+                    93,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    69,
+                    2
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    204
+                ]
+            ],
+            "training_time_s": 0.04957420006394386,
+            "prediction_time_s": 0.00996420020237565,
+            "file_size_kb": 27.0458984375
+        },
+        "K-Nearest Neighbors": {
+            "accuracy": 0.9621848739495799,
+            "precision": 0.9618719246391844,
+            "recall": 0.9621848739495799,
+            "f1_score": 0.9618988465559019,
+            "confusion_matrix": [
+                [
+                    102,
+                    3,
+                    0,
+                    0
+                ],
+                [
+                    4,
+                    89,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    64,
+                    5
+                ],
+                [
+                    0,
+                    0,
+                    1,
+                    203
+                ]
+            ],
+            "training_time_s": 0.0017697000876069069,
+            "prediction_time_s": 0.0024698995985090733,
+            "file_size_kb": 118.802734375
+        }
+    },
+    "class_names": [
+        "Low",
+        "Medium",
+        "High",
+        "Very High"
+    ],
+    "dataset_sizes": {
+        "train_size": 1427,
+        "test_size": 476,
+        "total_size": 1903
+    },
+    "best_model_size_kb": 27.0458984375
+}
