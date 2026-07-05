@@ -128,7 +128,7 @@ Our Support Vector Machine (SVM) classifier achieves an overall **98.9% F1-score
 ---
 
 ## 👤 Developer Profile
-* **Developer Name**: Pandu
+* **Developer Name**: Mohammad Tayyab
 * **Role**: Machine Learning & Web Applications Software Engineer
 * **GitHub**: [https://github.com/pandu0426](https://github.com/pandu0426)
 * **Repository**: [https://github.com/pandu0426/HDI-Insights](https://github.com/pandu0426/HDI-Insights)
