@@ -12,7 +12,7 @@ HDI Insight AI is a premium, enterprise-ready web analytics application that lev
 
 ## 📸 Screenshots & Interface Walkthrough
 
-A complete gallery of visual walkthroughs is saved in the [Screenshots/](Screenshots/) directory:
+A complete gallery of visual walkthroughs is saved in the [Screenshots/](file:///c:/Users/Shahrukh/OneDrive/Desktop/HDI%20-%20Prediction%20System/Screenshots/) directory:
 
 *   **Home Dashboard**: A modern, interactive analytics landing page showing country stats and recent prediction histories.
 *   **Predictive Simulator**: Live inputs slider interface with real-time confidence gauges, HDI category output, and ML feature weights.
