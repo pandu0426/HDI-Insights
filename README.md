@@ -204,3 +204,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 *   **United Nations Development Programme (UNDP)** for providing the public Human Development Index dataset and methodology.
 *   The open-source communities behind Flask, Scikit-Learn, and Chart.js.
+
